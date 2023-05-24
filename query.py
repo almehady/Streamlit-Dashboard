@@ -3,16 +3,6 @@
 
 # #connection
 
-# conn=mysql.connector.connect(
-#     host="localhost",
-#     port="3306",
-#     user="root",
-#     passwd="",
-#     db="myDb"
-# )
-# c=conn.cursor()
-
-#fetch
 
 import pandas as pd
 all_data = pd.read_csv('/Users/faisalsalam/dev/data_analytics/streamlit_dashboard/resources/excel.csv')
